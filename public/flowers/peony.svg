@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="peonyOuter" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#ffd9e0"/>
+      <stop offset="60%" stop-color="#ff9bb4"/>
+      <stop offset="100%" stop-color="#ef6f93"/>
+    </radialGradient>
+    <radialGradient id="peonyInner" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#fff0f3"/>
+      <stop offset="100%" stop-color="#ff8fae"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="42" fill="#ff9bb4"/>
+  <g fill="url(#peonyOuter)" stroke="#ef6f93" stroke-width="0.3">
+    <path d="M50,54 C36,50 30,30 42,16 C47,22 53,22 58,16 C70,30 64,50 50,54 Z"/>
+    <path d="M50,54 C36,50 30,30 42,16 C47,22 53,22 58,16 C70,30 64,50 50,54 Z" transform="rotate(45 50 50)"/>
+    <path d="M50,54 C36,50 30,30 42,16 C47,22 53,22 58,16 C70,30 64,50 50,54 Z" transform="rotate(90 50 50)"/>
+    <path d="M50,54 C36,50 30,30 42,16 C47,22 53,22 58,16 C70,30 64,50 50,54 Z" transform="rotate(135 50 50)"/>
+    <path d="M50,54 C36,50 30,30 42,16 C47,22 53,22 58,16 C70,30 64,50 50,54 Z" transform="rotate(180 50 50)"/>
+    <path d="M50,54 C36,50 30,30 42,16 C47,22 53,22 58,16 C70,30 64,50 50,54 Z" transform="rotate(225 50 50)"/>
+    <path d="M50,54 C36,50 30,30 42,16 C47,22 53,22 58,16 C70,30 64,50 50,54 Z" transform="rotate(270 50 50)"/>
+    <path d="M50,54 C36,50 30,30 42,16 C47,22 53,22 58,16 C70,30 64,50 50,54 Z" transform="rotate(315 50 50)"/>
+  </g>
+  <g fill="url(#peonyInner)" stroke="#ff8fae" stroke-width="0.3" transform="rotate(22 50 50)">
+    <path d="M50,50 C41,47 37,33 45,24 C48,28 52,28 55,24 C63,33 59,47 50,50 Z"/>
+    <path d="M50,50 C41,47 37,33 45,24 C48,28 52,28 55,24 C63,33 59,47 50,50 Z" transform="rotate(51 50 50)"/>
+    <path d="M50,50 C41,47 37,33 45,24 C48,28 52,28 55,24 C63,33 59,47 50,50 Z" transform="rotate(102 50 50)"/>
+    <path d="M50,50 C41,47 37,33 45,24 C48,28 52,28 55,24 C63,33 59,47 50,50 Z" transform="rotate(153 50 50)"/>
+    <path d="M50,50 C41,47 37,33 45,24 C48,28 52,28 55,24 C63,33 59,47 50,50 Z" transform="rotate(204 50 50)"/>
+    <path d="M50,50 C41,47 37,33 45,24 C48,28 52,28 55,24 C63,33 59,47 50,50 Z" transform="rotate(255 50 50)"/>
+    <path d="M50,50 C41,47 37,33 45,24 C48,28 52,28 55,24 C63,33 59,47 50,50 Z" transform="rotate(306 50 50)"/>
+  </g>
+  <g fill="#fff4f7">
+    <circle cx="50" cy="50" r="9" fill="#ffd9e2"/>
+    <circle cx="50" cy="46" r="2.4" fill="#ffc93b"/>
+    <circle cx="54" cy="49" r="2.4" fill="#ffc93b"/>
+    <circle cx="52" cy="53" r="2.4" fill="#ffd14f"/>
+    <circle cx="47" cy="53" r="2.4" fill="#ffc93b"/>
+    <circle cx="46" cy="48" r="2.4" fill="#ffd14f"/>
+  </g>
+</svg>

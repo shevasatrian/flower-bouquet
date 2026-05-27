@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <path d="M26 62 Q25 105 60 105 Q95 105 94 62 L84 44 Q60 38 36 44 Z" fill="#d4b483"/>
+  <path d="M29 68 Q60 63 91 68" stroke="#b8964a" stroke-width="1.5" fill="none"/>
+  <path d="M28 76 Q60 71 92 76" stroke="#b8964a" stroke-width="1.5" fill="none"/>
+  <path d="M28 84 Q60 79 92 84" stroke="#b8964a" stroke-width="1.5" fill="none"/>
+  <path d="M29 92 Q60 87 91 92" stroke="#b8964a" stroke-width="1.5" fill="none"/>
+  <path d="M29 100 Q60 95 91 100" stroke="#b8964a" stroke-width="1.5" fill="none"/>
+  <line x1="42" y1="46" x2="33" y2="104" stroke="#b8964a" stroke-width="1.5"/>
+  <line x1="53" y1="41" x2="49" y2="105" stroke="#b8964a" stroke-width="1.5"/>
+  <line x1="60" y1="40" x2="60" y2="105" stroke="#b8964a" stroke-width="1.5"/>
+  <line x1="67" y1="41" x2="71" y2="105" stroke="#b8964a" stroke-width="1.5"/>
+  <line x1="78" y1="46" x2="87" y2="104" stroke="#b8964a" stroke-width="1.5"/>
+  <ellipse cx="60" cy="45" rx="27" ry="8" fill="#c4a86a" stroke="#b8964a" stroke-width="1.5"/>
+  <path d="M40 45 Q42 20 60 18 Q78 20 80 45" stroke="#8b6914" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

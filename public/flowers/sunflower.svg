@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="sunPetal" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffe14d"/>
+      <stop offset="60%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#e8950e"/>
+    </linearGradient>
+    <radialGradient id="sunCore" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#a55a1e"/>
+      <stop offset="55%" stop-color="#7a3f12"/>
+      <stop offset="100%" stop-color="#4a2608"/>
+    </radialGradient>
+  </defs>
+  <g fill="url(#sunPetal)" stroke="#e8950e" stroke-width="0.3">
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(30 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(60 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(90 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(120 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(150 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(180 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(210 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(240 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(270 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(300 50 50)"/>
+    <path d="M50,50 C45,38 45,16 50,6 C55,16 55,38 50,50 Z" transform="rotate(330 50 50)"/>
+  </g>
+  <g fill="url(#sunPetal)" transform="rotate(15 50 50)" opacity="0.92">
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(30 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(60 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(90 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(120 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(150 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(180 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(210 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(240 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(270 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(300 50 50)"/>
+    <path d="M50,48 C46,38 46,20 50,12 C54,20 54,38 50,48 Z" transform="rotate(330 50 50)"/>
+  </g>
+  <circle cx="50" cy="50" r="19" fill="url(#sunCore)"/>
+  <g fill="#3d2208" opacity="0.7">
+    <circle cx="50" cy="42" r="1.5"/><circle cx="56" cy="44" r="1.5"/>
+    <circle cx="58" cy="50" r="1.5"/><circle cx="56" cy="56" r="1.5"/>
+    <circle cx="50" cy="58" r="1.5"/><circle cx="44" cy="56" r="1.5"/>
+    <circle cx="42" cy="50" r="1.5"/><circle cx="44" cy="44" r="1.5"/>
+    <circle cx="50" cy="50" r="1.5"/>
+  </g>
+</svg>

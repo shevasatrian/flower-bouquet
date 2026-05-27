@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gerberaPetal" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffd24d"/>
+      <stop offset="55%" stop-color="#ff9a2e"/>
+      <stop offset="100%" stop-color="#f5731a"/>
+    </linearGradient>
+    <radialGradient id="gerberaCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7a3b12"/>
+      <stop offset="60%" stop-color="#5a2a0c"/>
+      <stop offset="100%" stop-color="#3d1c06"/>
+    </radialGradient>
+  </defs>
+  <g fill="url(#gerberaPetal)" stroke="#e8651a" stroke-width="0.3">
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(24 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(48 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(72 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(96 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(120 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(144 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(168 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(192 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(216 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(240 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(264 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(288 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(312 50 50)"/>
+    <path d="M50,52 C46,40 46,18 50,8 C54,18 54,40 50,52 Z" transform="rotate(336 50 50)"/>
+  </g>
+  <g fill="#ffb347" stroke="#e8651a" stroke-width="0.2" transform="rotate(12 50 50)">
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(30 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(60 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(90 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(120 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(150 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(180 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(210 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(240 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(270 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(300 50 50)"/>
+    <path d="M50,42 C47,36 47,26 50,20 C53,26 53,36 50,42 Z" transform="rotate(330 50 50)"/>
+  </g>
+  <circle cx="50" cy="50" r="15" fill="url(#gerberaCore)"/>
+  <circle cx="50" cy="50" r="15" fill="none" stroke="#ffcf6b" stroke-width="2.5"/>
+  <g fill="#8a4a18">
+    <circle cx="50" cy="44" r="1.6"/><circle cx="56" cy="47" r="1.6"/>
+    <circle cx="55" cy="54" r="1.6"/><circle cx="48" cy="56" r="1.6"/>
+    <circle cx="44" cy="50" r="1.6"/><circle cx="50" cy="50" r="1.6"/>
+  </g>
+</svg>

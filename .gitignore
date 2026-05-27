@@ -34,3 +34,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local reference material (saved web pages / stock images — not part of the app)
+/example.html
+/example_files/
+/example-2.webp
+
+# local scratch / preview captures
+_preview*.png
+_prod.log
+_cprofile/

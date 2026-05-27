@@ -3,25 +3,71 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff0f3;
+  --foreground: #3d1a26;
+  --rose-500: #e8496a;
+  --gold-500: #f59e0b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, sans-serif;
+  min-height: 100vh;
+}
+
+::selection {
+  background: #ffc2d4;
+  color: #590d22;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .romantic-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(232, 73, 106, 0.15);
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(232, 73, 106, 0.08);
+  }
+
+  .romantic-input {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1.5px solid #ffc2d4;
+    border-radius: 0.75rem;
+    padding: 0.625rem 1rem;
+    font-size: 1rem;
+    color: #3d1a26;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    width: 100%;
+    outline: none;
+  }
+
+  .romantic-input:focus {
+    border-color: #e8496a;
+    box-shadow: 0 0 0 3px rgba(232, 73, 106, 0.15);
+  }
+
+  .shimmer-btn {
+    background-size: 200% 100%;
+    background-image: linear-gradient(
+      90deg,
+      #e8496a 0%,
+      #f7637a 40%,
+      #ff8fab 60%,
+      #e8496a 100%
+    );
+    transition: background-position 0.4s ease;
+  }
+
+  .shimmer-btn:hover {
+    background-position: right center;
   }
 }
