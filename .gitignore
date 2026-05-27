@@ -44,3 +44,5 @@ next-env.d.ts
 _preview*.png
 _prod.log
 _cprofile/
+
+.vercel
